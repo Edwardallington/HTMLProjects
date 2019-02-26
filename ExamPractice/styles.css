@@ -1,0 +1,10 @@
+* {padding: 0px; margin: 0px;}
+			body {background-color: #84596B; text-align: center; color: #F7F5F8; font-family: arial}
+			h1 {text-shadow: 2px 2px 5px black; font-family: 'Orbitron', sans-serif;}
+			footer {font-style: italic; font-weight: bold;}
+			section {text-align: left; border-bottom: 2px; border-bottom-color: black; border-bottom-style: solid; padding: 10px}
+			header {background-color: #603A40; text: #e9e3eb; padding:25px}
+			#container {content: center; width: 80%; margin: auto; box-shadow:0px 10px 5px #191716; background-color:#b6a4bc}
+			.odd {background-color: #E9E3Eb; text-align:right}
+			a {text-decoration: none; a:link: white; a:visited: grey; a:hover: #84596B}
+			figure {color: black}
