@@ -1,0 +1,24 @@
+/*File: styles.css; Author: Edward Allington; Assignment: My Blog; Date: March 4th, 2019*/
+.lead {
+  border-bottom: 5px solid black;
+  background-color: #ffef1c;
+}
+
+.odd {
+  background-color: #0ba7e0;
+  border: 5px solid black;
+}
+
+.even {
+  background-color: #0f5b33;
+  border: 5px solid black;
+}
+
+body {
+  background-image: url(field_with_road.jpg);
+}
+
+footer {
+  text-align: center;
+  background-color: #0ba7e0;
+}
