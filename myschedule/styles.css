@@ -1,0 +1,33 @@
+body {
+  background-color: #d1f215;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+table, tr td, th {
+  border: 2px #d1f215 solid;
+  opacity: .85;
+}
+
+table {
+  margin: 100px 0px 0px 200px;
+  width: 80%
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #e8e8e8;
+}
+
+tr:nth-child(odd) {
+  background-color: white;
+}
+
+th{
+  background-color: #c19047;
+  color: white;
+}
