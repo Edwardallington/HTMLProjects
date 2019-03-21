@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <h2>Advising Appointment</h2>
+  <div class="container">
+    <form action="">
+
+      <fieldset>
+        <legend>Contact Info</legend>
+        <label for="fName">
+First Name:
+<input type="text" name="fName" placeholder="First Name" required autofocus id="fName">
+</label>
+
+        <label for="lname">
+Last Name: <input type="text" name="lName" placeholder="Last Name" id="lName">
+</label>
+        <label for="email">
+Email: <input type="email" name="email" placeholder="Email" required id="email">
+</label>
+      </fieldset>
+      <fieldset>
+        <legend>Reservation Request<legend>
+            <label for="teacher">
+    <select name="teacher">
+      <option value="mrsmarkley">Kirsten Markley</option>
+      <option value="cheese">Mr. Cheese Lover</option>
+      <option value="csharp">Ms. Riley</option>
+    </label>
+            </select>
+            <label for="month">
+    <select name="month">
+      <option value="jan">January</option>
+      <option value="feb">Febuary</option>
+      <option value="jul">July</option>
+    </select>
+</label>
+            <label for="day">
+              <input type="number" value="1" min="1" max="31" id="day">
+            </label>
+<label for="ampm">
+          <input type="radio" value="am" id="ampm">AM
+          <input type="radio" value="pm" id="" name="">PM
+        </label>
+</fieldset>
+<input type="submit" value="Register Now!" class="submit">
+</form>
+
+    </div>
+
+  </body>
+</html>

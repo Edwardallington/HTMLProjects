@@ -1,0 +1,21 @@
+body {
+  background-image: url(makeAppt.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: blue;
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+  background-color: #eeeeee;
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center
+}
+/*input {position:absolute; left: 18%}*/
+/*label {display: block; padding-bottom: 5px; position:relative}*/
+
+.submit{width:initial; position:initial;}
